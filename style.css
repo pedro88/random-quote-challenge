@@ -1,0 +1,51 @@
+body {
+  background-color: #20293a;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid {
+  grid-row: 2/3;
+  grid-column: 2/3;
+ 
+}
+.quote {
+  background-image: url("bg-image-random-quote.svg");
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: right bottom;
+  height: 300px;
+  background-color: #4a5567;
+  border-radius: 20px;
+}
+.link {
+  height: 75px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-self:center;
+  margin: 10px
+}
+.button{
+  border-color: #4a5567;
+  background-color: #20293a;
+  border-style: solid;
+  height: 75px;
+  width: 80px;
+  background-size: cover;
+}
+.button:active{
+  background-color: #4a5567;
+  border-color: #20293a;
+}
+#random{
+  background-image: url(Regroup.svg);
+  border-radius: 10px 0px 0px 10px;
+
+}
+#copy{
+  background-image: url(link.svg);
+  border-radius: 0px 10px 10px 0px;
+}
