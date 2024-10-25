@@ -24,8 +24,7 @@ function random() {
 }
 
 function copy() {
-  var copyText = document.getElementById("text");
-  copyText.select();
-  navigator.clipboard.writeText(copyText.value);
-  alert("Copied the text: " + copyText.value);
+  let copyText = document.getElementById("text");
+  navigator.clipboard.writeText(copyText.innerText);
+  alert("Quote copied!");
 }
