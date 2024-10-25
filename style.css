@@ -8,14 +8,13 @@ body {
 .grid {
   grid-row: 2/3;
   grid-column: 2/3;
- 
 }
 .quote {
   background-image: url("bg-image-random-quote.svg");
   background-repeat: no-repeat;
   background-size: auto auto;
   background-position: right bottom;
-  height: 300px;
+  height: auto;
   background-color: #4a5567;
   border-radius: 20px;
 }
@@ -25,10 +24,10 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  justify-self:center;
-  margin: 10px
+  justify-self: center;
+  margin: 10px;
 }
-.button{
+.button {
   border-color: #4a5567;
   background-color: #20293a;
   border-style: solid;
@@ -36,16 +35,50 @@ body {
   width: 80px;
   background-size: cover;
 }
-.button:active{
+.button:active {
   background-color: #4a5567;
   border-color: #20293a;
 }
-#random{
+#random {
   background-image: url(Regroup.svg);
   border-radius: 10px 0px 0px 10px;
-
 }
-#copy{
+#copy {
   background-image: url(link.svg);
   border-radius: 0px 10px 10px 0px;
+}
+
+.quoteText {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+#autor {
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+  padding: 40px 40px 0px 40px;
+  margin: 0px;
+}
+#text {
+  font-size: 1.5rem;
+  color: #97a3b6;
+  padding: 00px 40px 40px 40px;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+#tag {
+  color: #6466e9;
+  border-style: solid;
+  border-color: #6466e9;
+  border-radius: 20px;
+  width: auto;
+  padding: 5px;
+  height: auto;
+  font-size: 0.625rem;
 }
