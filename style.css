@@ -74,6 +74,7 @@ body {
 }
 #tag {
   color: #6466e9;
+  border: 1px;
   border-style: solid;
   border-color: #6466e9;
   border-radius: 20px;
