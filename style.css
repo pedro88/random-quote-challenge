@@ -1,5 +1,5 @@
 body {
-  background-color: #20293a;
+  background-color: #111729;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -15,7 +15,7 @@ body {
   background-size: auto auto;
   background-position: right bottom;
   height: auto;
-  background-color: #4a5567;
+  background-color: #20293A;
   border-radius: 20px;
 }
 .link {
@@ -29,14 +29,14 @@ body {
 }
 .button {
   border-color: #4a5567;
-  background-color: #20293a;
+  background-color: #111729;
   border-style: solid;
   height: 75px;
   width: 80px;
   background-size: cover;
 }
 .button:active {
-  background-color: #4a5567;
+  background-color: #111729;
   border-color: #20293a;
 }
 #random {
@@ -56,14 +56,14 @@ body {
 }
 #autor {
   font-size: 1rem;
-  color: white;
+  color: #97A3B6;
   font-weight: 600;
   padding: 40px 40px 0px 40px;
   margin: 0px;
 }
 #text {
   font-size: 1.5rem;
-  color: #97a3b6;
+  color: #4A5567;
   padding: 00px 40px 40px 40px;
 }
 .tags {
